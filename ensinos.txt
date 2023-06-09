@@ -1,0 +1,15 @@
+# Para eu escrever uma palavra e ela ter um link nela.
+
+
+    # async def utils(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    await context.bot.send_message(parse_mode="HTML",
+        chat_id=update.effective_chat.id,
+        text="""utils:
+        <a href="link">Iniciar</a>
+        """
+
+#tenho que colocar esse parse_mode="HTML", para ele reconhecer o <a>
+
+---------------------------------------------------->
+
+#

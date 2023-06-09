@@ -1,0 +1,78 @@
+Name: https://t.me/TelegerMathezonnnbot
+Status: Publico
+
+Objetivo:
+    ⌜Aprendizado⌟
+
+Explicação geral:
+
+    ◦ Main (./Main):
+
+        Aonde acontece a ligações do Bot, e a puxação dos comandos, e a função de JSON para pegar o 
+        file_id.
+
+            ◜
+                # Aqui esta transformando o application no nome do Bot, ex: Se eu falar o Matheus manda um "oi",
+                Seria,applia=cation mande um oi
+                ⌈ 
+                application = Application.builder().token('6149861753:AAGWyyBCofJU3jYKCDUNGT-EyaxxT6hdA2g').build() 
+                ⌋
+            
+
+                # Aqui ativa o comando de /start quando interaje pela 1 vez,ou quando de /start (Ele meio chama o comando)
+                ⌈
+                      start_handler = CommandHandler('start', start)
+                      application.add_handler(start_handler) 
+                ⌋
+
+
+                #
+                ⌈
+                    # Entre 'tabela' é comando(é o que ele digita), e o do lado é a função(chamar a função)
+                    tabela_handler = CommandHandler('tabela', tabela)
+                    application.add_handler(tabela_handler) 
+                ⌋
+
+
+                # O bot fica dando looping no codigo e "escutando" se alguem falar algo
+                ⌈
+                 application.run_polling() 
+                ⌋
+
+            ◞
+
+    ◦ tabela (./tabela):
+        Envia uma tabela de videos e sobre o assunto do video que temos
+
+            ◜
+
+                # Envia um texto com oque esta escrito ali e quando colocamos entre 
+                3 (""") eu posso dar um enter que na menssagem ele fica com o enter tabm
+                
+                ⌈
+                    async def tabela(update: Update, context: ContextTypes.DEFAULT_TYPE):
+                        await context.bot.send_message(
+                            chat_id=update.effective_chat.id,
+                            text="""Atualmente temos cursos de:
+                            /V1 | ???
+                            /V2 | ???
+                            /V3 | ???
+                            /V4 | ???
+                            /V5 | ???
+                            """
+                    )
+                ⌋
+
+            ◞
+        ◦ Extras (./Extras):
+        Explicação do arquivo geral
+
+            ◜
+                ◦ Erro (./Extras/Erro):
+                    Quando a pessoa digita comando ele retorna "Comandonão encontrado".
+
+            ◞    
+
+
+
+
