@@ -12,7 +12,7 @@ videos = [
      
 ]
 
-async def Curso1(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def testv1(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_photo(caption="opa",photo='AgACAgQAAxkDAAICS2R9JWCNm37MmmQ34Os254Uq9ZSgAAKUrzEbc-CkUsC1oSFcOiU7AQADAgADcwADLwQ')
     print("Video 1 - Ok")
     print("-----------------------------------------------------------------")

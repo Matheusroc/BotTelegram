@@ -21,10 +21,11 @@ print("Carregando...")
 from tabela import tabela
 from extras.erro import unknown
 from extras.start import start
-from Videos.test.test import Curso1
+from Source.MicroExpressoesFaciais.main import Curso1
 from extras.help import help
 from Comandos.Util.util import utils
-
+from Comandos.Olhando.main import vendo
+from Videos.test.test import testv1
 
 print("Carregado 100%")
 #########################
@@ -84,7 +85,7 @@ if __name__ == '__main__':
     application = Application.builder().token('6149861753:AAGWyyBCofJU3jYKCDUNGT-EyaxxT6hdA2g').build()
 
     # Passa o manipulador de mensagem para o objeto Updater
-    # application.add_handler(MessageHandler(filters.ALL, reply))
+    #application.add_handler(MessageHandler(filters.ALL, reply))
 
 
     #comando start
@@ -99,6 +100,10 @@ if __name__ == '__main__':
     C1_handler = CommandHandler('Curso1', Curso1)
     application.add_handler(C1_handler)
 
+    #comando testV1
+    C1_handler = CommandHandler('testV1', testv1)
+    application.add_handler(C1_handler)
+
     #comando help
     help_handler = CommandHandler('help', help)
     application.add_handler(help_handler)
@@ -106,6 +111,10 @@ if __name__ == '__main__':
     #comando utils
     utils_handler = CommandHandler('utils', utils)
     application.add_handler(utils_handler)
+
+    #comando vendo
+    vendo_handler = CommandHandler('Olhe', vendo)
+    application.add_handler(vendo_handler)
 
     #esse sempre tem que ser o ultimo, pq se colocar em primeiro, ele cancela todos os outros.
     # Comando não encontrado
