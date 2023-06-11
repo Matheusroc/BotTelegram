@@ -6,11 +6,11 @@ from telegram.ext import Updater, CommandHandler, CallbackQueryHandler, MessageH
 
 
 
-async def tabela(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def Tabela(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await context.bot.send_message(
         chat_id=update.effective_chat.id,
-        text="""Atualmente temos cursos de:
-        /V1 | ???
+        text="""Atualmente temos:
+        /V1 | Micro expressões faciais
         /V2 | ???
         /V3 | ???
         /V4 | ???
