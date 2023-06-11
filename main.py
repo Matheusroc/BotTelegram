@@ -6,7 +6,7 @@ from telegram.ext import Application, ContextTypes, CommandHandler, filters, Mes
 import yt_dlp
 import json
 
-
+print("Carregando")
 print("Carregando.")
 print("Carregando..")
 print("Carregando...")
