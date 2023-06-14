@@ -4,7 +4,7 @@ import logging
 from telegram import Update
 from telegram.ext import ContextTypes, CommandHandler, filters, MessageHandler
 import yt_dlp
-from config import config
+
 
 
 async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
@@ -130,7 +130,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:08:36 0506 Refatorar Exercício 2
         01:13:40 0506 Refatorar Exercício 3
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAUhkh5nTErnOC5bHZy4m0LtvWw6ItgAC3wMAAqohQUS1NeOJavfoCi8E')
     print("Video 7 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -146,7 +146,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         00:28:54 0605 Max Width
         00:33:42 0606 Responsivo Exercicio
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAUpkh5rx2fsbnTpWFKEOsYP0jEoKywAC4AMAAqohQURlv_wqxLB4jC8E')
     print("Video 8 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -169,7 +169,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:32:42 0710 Footer
         01:39:47 0711 Otimizações
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAUxkh5wvnBUQJzZ3BOZe-T2D_EKMAQAC4QMAAqohQUT-dYVca-vVNi8E')
     print("Video 9 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -185,7 +185,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         00:33:50 0804-git 2
         00:41:52 0805-fonts
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAU5kh5ysT6JksYYIvvnhn0xXIYeziQAC4gMAAqohQUSJDkKAGBMWIi8E')
     print("Video 10 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -205,7 +205,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:13:08 0906 CSS Utilitário 1
         01:23:48 0906 CSS Utilitário 2
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAV9kiQNm5aeISPMNso-LbY4ggO29LQAC6QIAAqjLSEQGJRYDlcEkjy8E')
     print("Video 11 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -231,7 +231,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:40:17 1012 Bicicletas Lista 1
         01:53:22 1012 Bicicletas Lista 2
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAWFkiQVLsztuPJNFtFM6401QYxdP9wAC6gIAAqjLSES9RXiS-yIuhS8E')
     print("Video 12 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -252,7 +252,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:27:13 1020 Bicicletas 2
         01:39:47 1020 Bicicletas 3
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAWNkiQa3zB9nFpcGniwn1TG5AsZI0gAC6wIAAqjLSESBJhMvC2r60C8E')
     print("Video 13 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -274,7 +274,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:39:09 1028 Orçamento 1
         01:53:04 1028 Orçamento 2
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAWVkiQgGk9M54eYgmPpR9lNq38uXaAAC7AIAAqjLSERcIxSz6pMXuC8E')
     print("Video 14 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -288,7 +288,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         00:25:16 1029 Decoração
         00:34:07 1030 Otimizações
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAWdkiQjHZxkd77XqozbdSfLpYVYItgAC7QIAAqjLSES2-eFdGxZnaS8E')
     print("Video 15 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -310,7 +310,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:32:58 1107 Condicionais 2
         01:40:29 1108 Arrays e Loops 1
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAWlkiQmh9IC5yFfE08j3eGLU39fITgAC7gIAAqjLSES__ec3yzKc2S8E')
     print("Video 16 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -322,7 +322,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         00:10:43 1108 Arrays e Loops 3
         00:16:02 1109 Solucionar Problemas
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAWtkiQnv0c6_ixe98QX6vDcarMJ4AgAC7wIAAqjLSESDs0ieljQYxS8E')
     print("Video 17 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -340,7 +340,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         01:04:54 1207 JavaScript Desativado
 
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAW1kiQtRdkRzzHPdlXLdS_18okCGGQAC8AIAAqjLSER6yok3S-wHmy8E')
     print("Video 18 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -356,7 +356,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         00:30:55 1304 Formulário PHP
         00:52:17 1305 Formulário JavaScript
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAW9kiQyTus9P4rD1VAABDOs0mO_N9U8AAvECAAKoy0hEKjGDaXA8CBQvBA')
     print("Video 19 - Ok")
     print("-----------------------------------------------------------------")
 
@@ -367,7 +367,7 @@ async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
         14  Considerações Finais
         00:00:00 1401 HTML e CSS para Iniciantes Conclusão
         """,
-    video='')
+    video='BAACAgEAAx0CaeV8BAACAXFkiQzNeqKKR9l3XKF_Hktc21z3LwAC8gIAAqjLSESALmE3fSfSwC8E')
     print("Video 20 - Ok")
     print("-----------------------------------------------------------------")
 
