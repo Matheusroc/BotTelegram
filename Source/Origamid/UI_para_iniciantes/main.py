@@ -7,7 +7,7 @@ import yt_dlp
 
 
 
-async def V2(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def C2_2(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_video(caption="""
         #Materiais001
 

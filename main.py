@@ -6,6 +6,9 @@ from telegram.ext import Application, ContextTypes, CommandHandler, filters, Mes
 import yt_dlp
 import json
 
+
+TimeoutError = 100
+
 print("Carregando.")
 print("Carregando..")
 print("Carregando...")
@@ -25,7 +28,8 @@ from extras.help import help
 from Comandos.Util.util import utils
 from Comandos.Olhando.main import vendo
 from Videos.test.test import testv1
-from Source.Origamid.main import V2
+from Source.Origamid.Html_e_css_para_iniciantes.main import C2_1
+from Source.Origamid.UI_para_iniciantes.main import C2_2
 from Comandos.Ebooks.main import Ebooks
 
 print("Carregado 100%")
@@ -130,9 +134,13 @@ if __name__ == '__main__':
     V1_handler = CommandHandler('V1', V1)
     application.add_handler(V1_handler)
 
-    # Comando V2
-    V2_handler = CommandHandler('V2', V2)
+    # Comando V2 - Html e css para iniciantes
+    V2_handler = CommandHandler('C2_1', C2_1)
     application.add_handler(V2_handler)
+
+    # Comando V2 - Ui para iniciantes
+    V3_handler = CommandHandler('C2_2', C2_2)
+    application.add_handler(V3_handler)
 
 
     #########################

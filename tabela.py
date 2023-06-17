@@ -11,7 +11,11 @@ async def Tabela(update: Update, context: ContextTypes.DEFAULT_TYPE):
         chat_id=update.effective_chat.id,
         text="""Atualmente temos:
         /V1 | Micro expressões faciais
-        /V2 | ???
+        /Ori
+            ◜
+            /C2_1 Html e CSS para iniciantes
+            /C2_2 Ui para iniciantes
+            ◞  
         /V3 | ???
         /V4 | ???
         /V5 | ???
